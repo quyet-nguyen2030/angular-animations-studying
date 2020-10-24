@@ -9,7 +9,7 @@ import { HelloComponent } from './hello.component';
 import { BasicsComponent } from './basics/basics.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule,
+  imports: [ BrowserModule, FormsModule,
     BrowserAnimationsModule,
     RouterModule.forRoot([
       { path: 'basics', component: BasicsComponent }
